@@ -13,8 +13,10 @@ function initPage() {
     console.log(searchHistory);
     
 
+
     const APIKey = "26e85ce72b51aa83235334c9b8df5f6f";
 //  When search button is clicked, read the city name typed by the user
+
 
     function getWeather(cityName) {
 //  Using saved city name, execute a current condition get request from open weather map api
