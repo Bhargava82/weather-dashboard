@@ -83,6 +83,7 @@ function initPage() {
         });  
     }
 
+    
     searchEl.addEventListener("click",function() {
         const searchTerm = inputEl.value;
         getWeather(searchTerm);
@@ -115,6 +116,7 @@ function initPage() {
             historyEl.append(historyItem);
         }
     }
+
 
     renderSearchHistory();
     if (searchHistory.length > 0) {
