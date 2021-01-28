@@ -7,7 +7,7 @@ $(document).ready(function () {
     $("#search").on("click", function (event) {
       var city = $("#search-city").val();
       var queryURL =
-        "https://api.openweathermap.org/data/2.5/weather?q=" +
+        "https://api.openweathermap.org/data/2.5/forecast?q=" +
         city +
         "&appid=26e85ce72b51aa83235334c9b8df5f6f";
       var apiKey = "26e85ce72b51aa83235334c9b8df5f6f";
